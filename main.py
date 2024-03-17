@@ -6,7 +6,7 @@ from os import environ
 from instahandle import get_media_info
 import re
 
-CHANNEL_USERNAME = "@CHANNEL USERNAME"
+CHANNEL_USERNAME = "@Sample_renamebot"
 
 # url check regex
 url_pattern = re.compile(r'^(https?|ftp)://[^\s/$.?#].[^\s]*$')
@@ -16,7 +16,7 @@ def is_valid_url(url):
 
 
 
-TOKEN = "ENTER TOKEN HERE"
+TOKEN = "5468685999:AAGEJM8hQRoB4fJzDSvdGTGzgIXdOLrT8pA"
 
 async def start(update, context):
     await update.message.reply_text("Send me a Instagram Post Link to Download...X.")
